@@ -11,7 +11,7 @@ const Header = ({ currentUser }) => (
 
     <div className='header'>
         <Link className='logo-container' to='/'>
-            {console.log(currentUser)};
+            {console.log(currentUser)}
             <Logo className='logo' />
         </Link>
         <div className='options'>

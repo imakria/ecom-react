@@ -12,6 +12,7 @@ const config = {
     measurementId: "G-WB1R62BZ9G"
 };
 
+
 firebase.initializeApp(config);
 
 export const createUserProfileDocument = async (userAuth, additionalData) => {
@@ -47,6 +48,7 @@ provider.setCustomParameters({ prompt: 'select_account' });
 export const signInWithGoogle = () => auth.signInWithPopup(provider);
 
 export default firebase;
+
 
 
 
